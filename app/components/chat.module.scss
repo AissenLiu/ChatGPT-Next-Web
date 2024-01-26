@@ -404,6 +404,13 @@
   }
 }
 
+.chat-message-user > .chat-message-container > .chat-message-item a:link,
+.chat-message-user > .chat-message-container > .chat-message-item a:visited,
+.chat-message-user > .chat-message-container > .chat-message-item a:hover,
+.chat-message-user > .chat-message-container > .chat-message-item a:active {
+  color: var(--white);
+}
+
 .chat-input-panel {
   position: relative;
   width: 100%;
